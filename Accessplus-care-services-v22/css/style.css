@@ -1,0 +1,557 @@
+body{
+  color: #121212;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+ 
+}
+.btn a{
+  color: #fff;
+  text-decoration: none;
+}
+.supportServices a{
+  color: #3BBCE4;
+}
+form{
+  text-align: center;
+  margin-bottom: 20%;
+}
+textarea{
+  padding-left: 2%;
+  border-radius: 10px;
+  border: 2px solid #3BBCE4;
+  padding-bottom: 2%;
+  resize: none;
+}
+textarea::-webkit-scrollbar{
+  display: none;
+}
+textarea:focus{
+  outline: transparent;
+  border: 3px solid #3BBCE4;
+}
+.blueH{
+  color: #3BBCE4;
+}
+.centeredP{
+  text-align: center;
+}
+.whiteP{
+  color: #fff;
+}
+.blueP{
+  color: #3BBCE4;
+}
+h2{
+  text-align: center;
+}
+
+#button{
+  width: 293px;
+  color: #fff;
+  border-radius: 10px;
+  background: #3BBCE4;
+}
+#button img{
+  padding-left: 5%;
+}
+#current{
+  text-decoration: underline 3px;
+  text-decoration-color: #B1152A;
+}
+.topContact{
+  background: #105D77;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.topContact img{
+  height: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#navContainer{
+  display: flex;
+  justify-content: center;
+}
+nav{
+  margin-top: 10%;
+  width: 100%;
+  margin-left: 20%;
+}
+nav img{
+  margin-right: 10%;
+}
+nav a{
+  color:#121212;
+  text-decoration: none;
+  padding-right: 1%;
+}
+nav a:hover{
+  color:#3BBCE4;
+}
+.bigImage{
+  width: 100%;
+}
+.messageContainer{
+  padding: 2%;
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+#welcomePic{
+  width: 50%;
+  padding-right: 10%;
+  
+}
+
+#ellipse{
+  
+  width: 100%;
+}
+.supportServices h2{
+  color: #3BBCE4;
+  text-align: center;
+  padding: 5%;
+  
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  
+}
+.cards button{
+  font-weight: 600;
+  color: #3BBCE4;
+}
+.cards button:hover{
+  font-weight: 600;
+  color: #3BBCE4;
+}
+#card{
+  width: 40%;
+  text-align: center;
+  margin: 1%;
+  border-radius: 20px;
+  background: #E1E1E1;
+}
+#cardImg{
+  width: 100%;
+}
+
+.supportYou{
+  text-align: center;
+  margin-top: 5%;
+}
+.roundCards{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.roundCards img{
+  width: 100%;
+}
+#roundCard{
+  width: 80%;
+  padding: 15%;
+  background-color: #E1E1E1;
+  border-radius: 100%;
+}
+#roundCardContainer{
+  padding: 5%;
+}
+#roundCardContainer p{
+ width: 100%;
+ margin-left: -10%;
+}
+.strategicDirection{
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  background: #E0E0E0;
+  padding-top:5%;
+}
+
+.NDIS{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.NDIS img{
+  width: 100%;
+}
+#NDISText{
+  border-radius: 20px;
+  background: #E0E0E0;
+  margin-left: 5%;
+  padding: 5%;
+}
+.stayConnected{
+  color: #3BBCE4;
+  text-align: center;
+  margin-top: 5%;
+}
+.books img{
+  width: 20%;
+  margin: 1%;
+}
+
+.instagramBtnContainer{
+  text-align: center;
+}
+.instagramBtn{
+  margin-top: 5%;
+  padding: 1%;
+  border-radius: 10px;
+  background: #AD1126;
+}
+.instagramBtn a{
+  color: #fff;
+  text-decoration: none;
+}
+.altContact{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.contactCardContainer{
+  display: flex;
+  justify-content: center;
+}
+.contactCard{
+  width: 100%;
+  border-radius: 30px;
+  background: #CBE8F6;
+  display: flex;
+  justify-content:flex-start;
+  padding-top: 3%;
+  margin: 5%;
+}
+.contactCard img{
+  width: 20%;
+}
+.contactCardText{
+  margin-left: 5%;
+}
+#forms #button{
+float: right;
+margin-right: 10%;
+}
+.bestSupport{
+  padding: 5%;
+}
+.bestSupport p{
+  margin-top: 5%;
+}
+
+/* form */
+.smallInput{
+  width: 25%;
+  height: 70px;
+  margin: 1%;
+  resize: none;
+}
+#bigInput{
+  width: 80%;
+  height: 265px;
+  padding-bottom: 20%;
+}
+
+/* contact us */
+.contactUs{
+  width: 100%;
+  background: #105D77;
+  display:flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.bottomLogo{
+  width: 40%;
+  margin-left: -20%;
+  padding: 1%;
+}
+.contactUsText{
+  margin-left: 10%;
+  padding-top: 10%;
+}
+.contactUsImg{
+  padding-bottom: 10%;
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+.contactUsImg img{
+  height: 100%;
+  margin-right: 1%;
+}
+
+.unsplash{
+  display: flex;
+  justify-content: center;
+}
+.unsplash img{
+  width: 50%;
+  margin-left: -1%;
+}
+.unsplash p{
+  padding: 5%;
+}
+.footer{
+  height: 89px;
+  background: #105D77;
+}
+.footer p{
+  padding-top: 3%;
+}
+
+/* About us page */
+.jobOpportunities{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5%;
+  background-color: #105D77;
+}
+.usCard{
+  margin-left: 25%;
+  margin-bottom: 10%;
+  padding: 2%;
+  width: 50%;
+  border-radius: 20px;
+  border-right: 3px solid #105D77;
+  border-left: 3px solid #105D77;
+  background: #E0E0E0;
+  text-align: center;
+}
+
+/* Youth Mentoring */
+
+.YMBackgroundImage{
+  background-image: url( '../img/image\ 24.png');
+  background-repeat: no-repeat;
+  color:#fff;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: large;
+}
+
+.ulBox{
+  display: flex;
+  justify-content: center;
+  line-height: 200%;
+}
+#ul1{
+  padding-right: 10%;
+}
+.YMContainer{
+  background-color: #105D77;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: #fff;
+}
+
+/* Behaviour Management Page */
+.BMBackgroundImage{
+  background-image: url( '../img/image\ 24.png');
+  background-repeat: no-repeat;
+  color:#fff;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: large;
+}
+
+#behaviouralSupport{
+  background-color: #CBE8F6;
+  padding: 5%;
+  border-radius: 20px;
+}
+
+.smallContact{
+  width: 50%;
+  border-radius: 10px;
+  background: #3BBCE4;
+  color: #fff;
+  display: flex;
+  padding-top: 2%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.smallContact img{
+  margin-top: 1%;
+  margin-right: 2%;
+  height: 50%;
+}
+
+/* contact Us Page */
+.detail{
+  width: 50%;
+}
+.bigDetail{
+  padding-top: 5%;
+  padding-bottom: 30%;
+  height: 194px;
+}
+/* Dropdown Button */
+.dropbtn {
+  border: none;
+  background-color: transparent;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 2px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #3CBBE4;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color:#3BBCE4;
+}
+
+@media (max-width: 800px){
+  body{
+    text-align: center;
+  }
+  #topContact{
+  display: none;
+  
+  }
+  #navContainer{
+    display: grid;
+    justify-content: center;
+  text-align: center;
+  }
+  nav{
+    padding: 0;
+    margin: 0;
+  }
+  #navContainer img{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .messageContainer{
+    display: block;
+    justify-self: center;
+    
+  }
+  #welcomePic{
+    width: 100%;
+  }
+ .cards{
+  display: grid;
+  align-items: center;
+ }
+ #card{
+  width: 100%;
+ }
+ .strategicDirection{
+  display: grid;
+  justify-content: center;
+ }
+ .strategicDirection p{
+  padding-left: 10%;
+  padding-right: 10%;
+ }
+ .strategicDirection h1{
+  padding-left: 10%;
+  padding-right: 10%;
+ }
+ .strategicDirection button{
+  margin-left: 10%;
+  margin-bottom: 5%;
+ }
+ .NDIS{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  overflow-x: hidden;
+ }
+ #NDISText{
+  width: 100%;
+  margin-top: 5%;
+  margin-left: -1%;
+ }
+.contactCardContainer{
+  display: grid;
+}
+.smallInput{
+  width: 100%;
+  display: grid;
+}
+#bigInput{
+  width: 100%;
+  padding-bottom: 40%;
+}
+.contactUs{
+  width: 100%;
+  display: grid;
+  align-items: center;
+
+}
+.bottomLogo{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.bottomLogo img{
+  width: 50%;
+}
+.bottomLogo p{
+  padding: 10%;
+}
+.contactUsText{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.unsplash{
+  display: grid;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.unsplash img{
+  width: 100%;
+}
+/* behaviour Management page */
+.smallContact{
+width: 100%;
+}
+.smallContact img{
+ margin: 0;
+  height: 50%;
+}
+
+}
